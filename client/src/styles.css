@@ -1,0 +1,111 @@
+*{
+    font-family: 'satoshi';
+}
+.parent {
+    width: 60%;
+    margin: 20px auto;
+}
+.chat{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin: 10px auto;
+    min-height: 500px;
+    max-height: 500px!important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+.navlink{
+    color:black;
+    text-decoration:none;
+}
+.sender-div{
+    width: 60%;
+    margin: 10px auto;
+
+
+}
+.msg-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.right{
+    align-self: flex-end;
+}
+.left{
+    align-self:flex-start;
+}
+.center{
+    align-self:center;
+}
+.msg{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    
+    min-width: 200px;
+}
+.left .msg {
+    background: #DCF2F1;
+}
+.right .msg{
+    background-color: #B4D4FF  ;
+}
+
+.center .msg {
+    background: #A9A9A9;
+}
+form {
+
+    position: relative;
+
+}
+form{
+    width: 100%!important;
+}
+form input {
+    width: 99.3%!important;
+    height: 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 3px;
+}
+form button{
+    width:30px;
+    height: 37px;
+    position:absolute;
+    right:5px;
+    top:1px;
+    background-color: inherit;
+    border: none;
+
+}
+form button span{
+    cursor: pointer;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+}
+.navbar {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar div{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:767px){
+    .parent {
+        width: 100%;
+    }
+}
